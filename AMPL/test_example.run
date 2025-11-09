@@ -1,0 +1,13 @@
+reset;
+model test_example.mod;
+data test_example.dat;
+# show;
+# expand;
+option solver cplex;
+
+solve;
+
+#display _solve_elapsed_time;
+
+
+printf {i in N} "%s,%f\n", i, x[i] > "x.csv";
