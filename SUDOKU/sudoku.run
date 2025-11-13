@@ -1,12 +1,6 @@
 reset;
 model sudoku.mod;
-data sudoku.dat;
-# show;
-# expand;
+data example1.dat; #sudoku.dat;
 option solver cplex;
-
 solve;
-
-#display _solve_elapsed_time;
-
-printf {i in N, j in N, k in M} "%s,%s,%s,%i\n", i, j,k, x[i,j,k] > "x_matrix.csv";
+display {r in R, c in C} sum {n in N} n * X[n,r,c]> "sudoku_solution.txt";
