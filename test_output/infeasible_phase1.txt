@@ -1,10 +1,10 @@
 SIMPLEX
+infeasible
 PHASE1: abs(obj_value) > 0 
 x: [1. 0. 0. 0. 0. 2.] 
 artificial variables: [0. 2.]
 obj_value: [[2.]] 
 
-infeasible
 AMPL
 presolve: constraint Constraint1[2] cannot hold:
 	body >= 3 cannot be <= 2; difference = 1

@@ -1,6 +1,6 @@
 SIMPLEX
 optimal
-SIMPLEX: x=[4.47619048 3.28571429 3.80952381 0.         0.        ]; f=-17.61904761904762; iterations_phase1=0; iterations_phase2: 2
+SIMPLEX: x=[4.47619048 3.28571429 3.80952381 0.         0.        ]; f=-17.6190476; iterations_phase1=0; iterations_phase2: 2
 AMPL
 CPLEX 22.1.2: CPLEX 22.1.2: optimal solution; objective -17.61904762
 2 simplex iterations

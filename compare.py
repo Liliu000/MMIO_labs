@@ -11,10 +11,10 @@ def optimize(A: np.matrix, b: np.matrix, c:np.array, filename: str):
     ampl_x = load_ampl_results()
     lines= []
     lines.append("SIMPLEX")
-    if result["error"] is not None:
-        lines.append(result["error"])
     if result["status"] is not None:
         lines.append(result["status"])
+    if result["error"] is not None:
+        lines.append(result["error"])
     if result["status"] == "optimal":
         lines.append(
         f"SIMPLEX: x={result["x"]}; f={result["obj_value"]}; iterations_phase1={result["iterations_phase1"]}; iterations_phase2: {result["iterations_phase2"]}"

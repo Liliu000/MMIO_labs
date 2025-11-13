@@ -1,9 +1,6 @@
 SIMPLEX
-PHASE2: Y_q <=0 
-Yq, q: 1 
-direccion: [1. 0. 0. 6.] +alpha*[1. 1. 0. 2.]
 optimal
-SIMPLEX: x=[0. 0. 1.]; f=1.0000000000000002; iterations_phase1=2; iterations_phase2: 0
+SIMPLEX: x=[0. 0. 1.]; f=1.0; iterations_phase1=2; iterations_phase2: 0
 AMPL
 CPLEX 22.1.2: CPLEX 22.1.2: optimal solution; objective 1
 1 simplex iterations

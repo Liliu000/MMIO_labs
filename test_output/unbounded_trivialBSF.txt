@@ -1,8 +1,8 @@
 SIMPLEX
+PHASE2: unbounded, no feasible
 PHASE2: Y_q <=0 
 Yq, q: 1 
 direccion: [1. 0. 0. 6.] +alpha*[1. 1. 0. 2.]
-PHASE2: unbounded, no feasible
 AMPL
 CPLEX 22.1.2: CPLEX 22.1.2: unbounded problem, no feasible solution returned
 0 simplex iterations

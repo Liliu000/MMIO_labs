@@ -6,14 +6,6 @@ import numpy as np
 
 
 def generate_dat(A: np.matrix, b: np.matrix, c: np.array, filename='AMPL/test_example.dat'):
-
-    """matrix = np.zeros((N, M, K))
-    print(matrix.shape)
-    print(df.iloc[N-1, M-1])  # Using iloc to access by integer position
-    for j in range(N):
-        for i in range(M):
-            num = df.iloc[i, j]
-            matrix[i][j][num-1] = 1"""
     m, n = A.shape
     with open(filename, 'w') as f:
         f.write("#Define sets\n")
